@@ -1,0 +1,130 @@
+html {
+    position: relative;
+  /*   margin: auto; */
+    background-color: #DDD;
+    
+  }
+  
+  body {
+    background: #070707;
+    background-color:  #F2EECB;
+    font-family: 'Lora', serif;
+    font-style: normal 400;
+    Font-size: 16px;
+  /*   height: a; */
+    margin: auto;
+  }
+  
+  .container-fluid {
+  /*   margin-bottom: 100%; */
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .row{
+      overflow: hidden; 
+  }
+  
+
+  
+  .main-sidebar {
+    margin-right:15px;
+    margin-left: 10px;
+    padding: 40px 0px 40px 0px;
+  
+  }
+  
+  .lg-view-sidebar {
+    background: #5c8a8a; 
+    background: linear-gradient( -90deg,rgba(55, 80, 10, 0.15), rgba(0, 40, 80, 0.15));
+    margin-bottom: -999px;
+    padding-bottom: 999px;
+  }
+  
+  .blockquote1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 22px;
+    font-style: italic;
+    width: 600px;
+    margin: 4.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #fafcf1;
+  }
+  
+  .blockquote2 {
+    font-family: 'Vollkorn', serif;
+    font-size: 22px;
+    font-style: italic;
+    width: 285px;
+    margin: 10.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: fixed; top:215px; right:0px;
+    height: auto;
+    z-index:1;
+    
+    color: #fafcf1;
+  }
+  
+  
+  
+  blockquote:before {
+      display: block;
+      padding-left: 20px;
+      content: "\201C";
+      font-size: 80px;
+      position: absolute;
+      left: -20px;
+      top: -20px;
+      color: #Fe5;
+  }
+  
+  /* 
+  blockquote[cite]:after {
+    display: block;
+    text-align: left;
+    font-style: normal;
+    font-size: 10px;
+    color: #FFF;
+    margin-top: 5px;
+  }
+   */
+  blockquote cite {
+    color: #202020;
+    font-size: 16px;
+    display: block;
+  }
+  
+  blockquote cite:before {
+      content: "\2014 \2009";
+  }
+  
+  h1 {
+    font-size: 38px;
+    font-family: 'Josefin Slab', serif;
+    margin-left: 60px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-style: italic;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  img{
+    width:100%;
+    height:100%;
+    background-position: 20px 10px;
+    background-repeat: no-repeat;
+  }
